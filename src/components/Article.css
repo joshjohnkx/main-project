@@ -1,0 +1,134 @@
+.hero-main{
+    padding: 42px 54px;
+    height: 650px;
+    width:100%;
+}
+* {
+  box-sizing: border-box;
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%; 
+  }
+  .left-box
+  {
+      padding: 92px 100px;
+      flex: 0 0 58.333333%;
+      max-width: 58.33333%;
+  }
+  .right-box{
+      flex: 0 0 40.6666%;
+    max-width: 40.6666%;
+  }
+  @media (min-width: 800px) {/* //desktop */
+ 
+    .hero-mobile{
+      display: none !important;
+    }
+  }
+ 
+#head1{
+    display: block;
+
+    margin-bottom: 40px;
+    font-size: 90px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 90px;
+}
+#para{
+    font-size: 22px;
+    color: darkslategrey;
+}
+
+.clients{
+  display: flex;
+  margin-top: 25px;
+  gap: 1rem;
+  
+}
+
+#learn-btn{
+  
+    justify-content: center;
+    padding: 12px;
+    text-align: center;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 5px; 
+    margin-top:40px ;
+
+  
+}
+
+@media (max-width: 800px){
+    /* mobile   */
+   .right-box{
+    display: none  !important;
+   }
+   .left-box{
+    padding: 100px 100px;
+    flex: 0 0 100%;
+    max-width: 100%;
+    
+   }
+
+     .hero-mobile{
+      height: 265px;
+      width: 350px;
+
+     }
+ 
+   .row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%; 
+
+
+    }
+
+   #head1{
+    display: block;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 30px;
+   }
+   #para{
+    font-size: 15px;
+    color: darkslategrey;
+   }
+   #learn-btn{
+  
+    justify-content: center;
+    padding: 12px;
+    text-align: center;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 5px; 
+    margin-top:20px ;
+
+  
+}
+.clients{
+  display: flex;
+  margin-top: 25px;
+  gap: .5rem;
+  box-sizing: border-box;
+}
+
+
+}
